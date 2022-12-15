@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Network</h1>
+    </div>
+    <div class="titleBar">
+        <p>Your Feed</p>
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="profileInfo">
+                <img src="./images/user-circle.png" height="150px" width = "150px" class="profilepicture" alt="user profile picture">
+                <a href="#" class="profilelink">Add an Avatar</a>
+                <p>James Doe</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="niel">
+                <div class="topniel">
+                    <div class="nameone">
+                        <p>Niel M</p>
+                    </div>
+                    <div class="likessectionone">
+                        <div class="numlikeone">
+                            <p><span id="likeOne">9</span> Like(s)</p>
+                        </div>
+                        <div class="buttonone">
+                            <button id = "nielbutton" onclick="addLike('#likeOne')"> Like</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottomOne">
+                    <p>I just setup this new Discord bot, let me</p>
+                    <p>know what you all think. <a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="nichole">
+                <div class="topnichole">
+                    <div class="nametwo">
+                        <p>Nichole K</p>
+                    </div>
+                    <div class="likessectiontwo">
+                        <div class="numliketwo">
+                            <p><span id = "likeTwo">12</span> Like(s)</p>
+                        </div>
+                        <div class="buttontwo">
+                            <button id = "nicholebutton" onclick="addLike('#likeTwo')"> Like</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottomTwo">
+                    <p>Just finished my <a href="#">next comic,</a> check it out.</p>
+                </div>
+            </div>
+            
+            <div class="jim">
+                <div class="topjim">
+                    <div class="namethree">
+                        <p>Jim R</p>
+                    </div>
+                    <div class="likessectionthree">
+                        <div class="numlikethree">
+                            <p><span id = "likeThree">9</span> Like(s)</p>
+                        </div>
+                        <div class="buttonthree">
+                            <button id = "jimbutton" onclick="addLike('#likeThree')"> Like</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottomThree">
+                    <p>I can't stop listening to the <a href="#">new album.</a></p>
+                    <p>Who is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
